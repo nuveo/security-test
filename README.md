@@ -17,7 +17,7 @@ OBS: Testes de carga ou DDoS serão descartados.
 - Quanto você consegue explorar as brechas encontradas na aplicação;
 - Conhecimento em análise de vulnerabilidades de aplicações web;
 - Nível de atenção aos detalhes;
-- Propostas para efetuar as correções e sanar os problemas listados.
+- Propostas para efetuar as correções e sanar os problemas listados, apresentando os possíveis trade-offs.
 
 ## Bônus
 
