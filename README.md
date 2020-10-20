@@ -10,6 +10,15 @@ Para realizar o teste você terá 3 dias.
 
 OBS: Testes de carga ou DDoS serão descartados.
 
+## Endpoints
+
+|Method|Endpoint|Body|Result|
+| --- | --- | --- | --- |
+|POST|/pdf|Arquivo pdf em form-data com chave 'pdf'|Um pdf é armazenado. |
+|GET|/search?filename=xxx|| Busca um arquivo com nome `xxx`. Este endpoint é protegido com basic auth. |
+|GET|/file/id|| Retorna informações do pdf com o `id`. |
+|GET|/status|| Readiness/liveness |
+
 ## Pontos de avaliação
 
 - Quantidade de vulnerabilidades descobertas na aplicação;
