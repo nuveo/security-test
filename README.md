@@ -4,7 +4,7 @@
 
 O desafio consiste em elaborar um relatório com base em um pentest (black-box) a ser feito numa aplicação vulnerável.
 
-A `URL` da aplicação está em http://testing.nuveo.ai.
+A `URL` da aplicação está em http://sec.test.nuveo.ai/.
 
 Para realizar o teste você terá 3 dias.
 
