@@ -4,7 +4,7 @@
 
 O desafio consiste em elaborar um relatório com base em um pentest (black-box) a ser feito numa aplicação vulnerável.
 
-A `URL` da aplicação está em http://sec.test.nuveo.ai/.
+A `URL` da aplicação está em https://sectest.nuveo.io/.
 
 Para realizar o teste você terá 3 dias.
 
@@ -27,7 +27,3 @@ OBS: Testes de carga ou DDoS serão descartados.
 - Conhecimento em análise de vulnerabilidades de aplicações web;
 - Nível de atenção aos detalhes;
 - Propostas para efetuar as correções e sanar os problemas listados, apresentando os possíveis trade-offs.
-
-## Bônus
-
-- Caso consiga acesso remoto ao servidor, vasculhe por completo e encontre os easter eggs.
