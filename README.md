@@ -1,16 +1,14 @@
 # Teste para Security Engineer
 
-## Descrição
+## Case
 
-O desafio consiste em elaborar um relatório com base em um pentest (black-box) a ser feito numa aplicação vulnerável.
+A startup XPTO Tech recentemente lançou o MVP da sua API de leitura de arquivos, e realizou o deploy da API da maneira mais simplória possível para realizar a entrega do MVP para possíveis investidores.
 
-A `URL` da aplicação está em https://sectest.nuveo.io/.
+O lançamento foi um sucesso e a XPTO Tech irá um investimento inicial, mas isto está condicionado a melhorias nos aspectos de segurança da aplicação, e para isso está solicitando os seus préstimos como Security Engineer para avaliar a aplicação e entregar um relatório de melhorias no quesito de segurança.
 
-Para realizar o teste você terá 3 dias.
+A aplicação está na seguinte URL: https://sectest.nuveo.io/.
 
-OBS: Testes de carga ou DDoS serão descartados.
-
-## Endpoints
+## Endpoints da API
 
 |Method|Endpoint|Body|Result|
 | --- | --- | --- | --- |
@@ -19,11 +17,14 @@ OBS: Testes de carga ou DDoS serão descartados.
 |GET|/file/id|| Retorna informações do pdf com o `id`. |
 |GET|/status|| Readiness/liveness |
 
-## Pontos de avaliação
+## Relatório
 
-- Quantidade de vulnerabilidades descobertas na aplicação;
-- Nível de detalhes sobre os serviços utilizados(Ex: versões e configurações);
-- Quanto você consegue explorar as brechas encontradas na aplicação;
-- Conhecimento em análise de vulnerabilidades de aplicações web;
-- Nível de atenção aos detalhes;
-- Propostas para efetuar as correções e sanar os problemas listados, apresentando os possíveis trade-offs.
+Seu relatório deverá conter os seguintes pontos:
+
+- Embasar seu relatório com alguma metodologia de mercado como OWASP, NIST ou ISO27001;
+- Identificar as possíveis vulnarabilidades e propor soluções para mitigar as mesmas;
+- Propor novas soluções de hospedagem da aplicação que sejam mais robustas no aspecto de segurança;
+- Sugerir possíveis soluções para monitoramento de redes, servidores e containers;
+- Sugerir também possíveis soluções de melhoria de acordo com a LGPD.
+
+Qualquer dúvida estamos a disposição para lhe ajudar.
